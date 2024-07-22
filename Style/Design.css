@@ -1,0 +1,296 @@
+body {
+    background: url(Project.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+li {
+    list-style: none;
+}
+
+
+.firstflex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.FirstIMg {
+    width: 150px;
+}
+.Secondflex {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+  }
+.name {
+    font-size: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+.arsenal-sc-regular-italic {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.Custom_chart {
+    margin: auto;
+}
+.colortone {
+    filter: brightness(0) saturate(100%) invert(11%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(95%) contrast(88%);
+}
+.playwrite-gb {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.playwrite-gb-s {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.OutAnime:hover {
+    width: 250px;
+}
+.IncremanetWidth .OutAnime {
+    width: 250px;
+}
+.playwrite-be-vlg {
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.RecentWork {
+    width: 150px;
+}
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.playwrite-be-wal {
+  font-family: "Playwrite BE WAL", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+@keyframes lumpOp {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.lumpOp {
+    animation-name: lumpOp;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 1;
+    animation-iteration-count: infinite;
+}
+.lumpOp {
+    background: blue;
+    display: inline-block;
+    color: orangered;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+@keyframes LoadMainImg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#LoadMainImg {
+    animation-name: lumpOp;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 1;
+    animation-iteration-count: infinite;
+}
+#divMain {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.NewDivMainClass {
+    opacity: 0%;
+}
+.NewDivMainClass, .NewMainClassImg {
+    display: none;
+}
+.tools {
+    width: 50px;
+    border-radius: 15px;
+}
+.Qrcode {
+    width: 200px;
+}
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.RecentLoad {
+    overflow: hidden;
+    width: 200px;
+}
+.HoverOverIt {
+
+}
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.playwrite-dk {
+  font-family: "Playwrite DK Uloopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.titillium-web-semibold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.TitleClass {
+    display: flex;
+    padding-left: 100px;
+    width: 15px;
+    text-align: center;
+}
+.MyName {
+    font-size: 70px;
+}
+.MainImg {
+    width: 500px;
+}
+@media (max-width: 750px) {
+    .MainImg {
+        width: 300px;
+    }
+    .name {
+        font-size: 35px;
+    }
+    .MyName {
+        font-size: 40px;
+    }
+}
+.SceondProgrammImg {
+    width: 700px;
+}
+.navContainer {
+    font-family: Roboto;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navBarabout {
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.iconAbout {
+    width: 20px;
+    height: 20px;
+}
+.gapAbout {
+    padding-left: 20px;
+}
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+.edu-au-vic-wa-nt-hand {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.toolsApp {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.SceondIllustration {
+    margin-bottom: 200px;
+}
+.trans {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+  .myChart {
+    width:100%;
+  }
+.divTool {
+    margin-top: 40px; 
+    background-color: rgb(221, 221, 221); 
+    display: inline-block; 
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(202, 202, 202);
+    margin-left: 20px;
+}

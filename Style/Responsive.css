@@ -1,0 +1,135 @@
+
+@media (max-width: 1600px ) {
+    
+}
+
+@media (max-width: 1020px ) {
+    .trans {
+        font-size: 20px;
+    }
+    .MainImg {
+        width: 400px;
+    }
+    .SceondProgrammImg {
+        width: 500px;
+    }
+}
+
+@media (max-width: 988px ) {
+    .navBarabout {
+        gap: 5px;
+    }
+}
+@media (max-width: 911px ) {
+    .iconAbout {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    .navBarabout {
+        gap: -5px;
+    }
+    .SceondProgrammImg {
+        width: 400px;
+    }
+    .SceondIllustration {
+        width: 300px;
+    }
+    .toolsApp {
+        font-size: 30px;
+    }
+    .Qrcode {
+        width: 150px;
+    }
+    .RecentWork {
+        width: 150px;
+    }
+}
+@media (max-width: 885px ) {
+    .navContainer {
+        font-weight: 300;
+    }
+    .TitleClass {
+        padding-left: 80px;
+    }
+}
+@media (max-width: 820px) {
+    .trans {
+        font-size: 15px;
+        text-align: center;
+    }
+    .MainImg {
+        width: 300px;
+    }
+    .toolsApp {
+        font-size: 30px;
+    }
+    .tools {
+        width: 25px;
+        border-radius: 2px;
+    }
+    .gapAbout {
+        padding-left: 15px;
+    }
+}
+@media (max-width: 625px) {
+    .gapAbout {
+        padding-left: 10px;
+    }
+}
+@media (max-width: 620px ) {
+    .firstflex {
+        display: block;
+        margin: auto;
+    }
+    .Imgdiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .SceondIllustration {
+        width: 250px;
+    }
+    .SceondProgrammImg {
+        width: 300px;
+    }
+    .RecentWork {
+        width: 100px;
+    }
+    .toolsApp {
+        font-size: 25px;
+    }
+    .chartjs-render-monitor {
+        width: 150px;
+    }
+}
+@media (max-width: 600px ) {
+    .MainImg {
+        width: 200px;
+    }
+    .edu-au-vic-wa-nt-hand {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 520px ) {
+    .SceondProgrammImg {
+        width: 250px;
+    }
+    .SceondIllustration {
+        margin-bottom: 50px;
+    }
+    .RecentWork {
+        width: 70px;
+    }
+    .Qrcode {
+        width: 80px;
+    }
+    .toolsApp {
+        font-size: 20px;
+    }
+    .divTool {
+        margin-left: 10px;
+    }
+}
