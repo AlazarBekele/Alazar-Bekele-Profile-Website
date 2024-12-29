@@ -8,7 +8,7 @@
         const Loading = document.getElementById ("LoadMainImg").classList = "NewMainClassImg"
         const DivLoad = document.getElementById ("divMain").classList = "NewDivMainClass"
     }
-            setTimeout (Load, 6000);
+            setTimeout (Load, 16000);
 
     function Qrcode () {
         const QrThree = document.getElementById ("QrThree").classList.add = "OnqrCLick"
